@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hello! I am a junior undergraduate at **Sun Yat-sen University**, majoring in **Inforamtion and Computing Science**. I am very fortunate to be advised by [Prof. Pengxu Wei](https://pengxuwei.github.io/) and [Prof. Liang Lin](https://www.sysu-hcp.net/faculty/lianglin.html) of the [HCP-I2 Lab: Human-Cyber-Physical Intelligence Integration, SYSU](https://www.sysu-hcp.net/).
 
-My research interests broadly encompass **statistics and its applications in generative models**. I am particularly intrigued by the mathematical foundations of machine learning and its intersection with probabilistic modeling. You can find more details about my work in my [publications] or [CV (PDF)]. I am also open to exploring new topics, so feel free to reach out if you'd like to discuss potential collaborations.
+My research interests broadly encompass **statistics and its applications in generative models**. I am particularly intrigued by the mathematical foundations of machine learning and its intersection with probabilistic modeling. You can find more details about my work in my [publications](https://github.com/chen-yaqin/chen-yaqin.github.io/tree/master/_publications) or [CV (PDF)](https://github.com/chen-yaqin/chen-yaqin.github.io/blob/master/files/paper1.pdf). I am also open to exploring new topics, so feel free to reach out if you'd like to discuss potential collaborations.
 
 I am actively seeking research opportunities for Summer and Fall 2025 and looking for Ph.D. positions starting in 2026. If my research aligns with your interests, I would be happy to connect—please feel free to contact me!
 <!-- This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! -->
@@ -16,6 +16,7 @@ I am actively seeking research opportunities for Summer and Fall 2025 and lookin
 Recent News
 ======
 Jan. 2025. One paper is submitted to **ICML 2025**.
+
 Oct. 2024. Awarded National Scholarship of China.
 
 <!-- Getting started
@@ -29,7 +30,7 @@ Oct. 2024. Awarded National Scholarship of China.
 
 Research
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<!-- The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header.  -->
 
 <!-- Create content & metadata
 ------
