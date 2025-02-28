@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 Hello! I am a junior undergraduate at **Sun Yat-sen University**, majoring in **Inforamtion and Computing Science**. I am very fortunate to be advised by [Prof. Pengxu Wei](https://pengxuwei.github.io/) and [Prof. Liang Lin](https://www.sysu-hcp.net/faculty/lianglin.html) of the [HCP-I2 Lab: Human-Cyber-Physical Intelligence Integration, SYSU](https://www.sysu-hcp.net/).
 
 My research interests broadly encompass **statistics and its applications in generative models**. I am particularly intrigued by the mathematical foundations of machine learning and its intersection with probabilistic modeling. You can find more details about my work in my [publications](/publications/) or [CV (PDF)](/files/CV.pdf). I am also open to exploring new topics, so feel free to reach out if you'd like to discuss potential collaborations.

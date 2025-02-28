@@ -26,11 +26,6 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}">{{ title }}</a> 
-      {% endif %}
-    </h2>
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
@@ -42,14 +37,8 @@
       {% if post.collection == 'publications' %}
         <p><strong>[{{ post.venue }}]</strong> <a href="{{ post.paperurl }}">{{ post.title }}</a></p>
         <p>{{ post.authors }}</p>
-        {% if post.paperurl %}
-          <p><a href="{{ post.paperurl }}">(pdf)</a></p>
-        {% endif %}
       {% endif %}
     {% endif %}
-        <!-- {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-        {% endif %} -->
 
     {% if post.excerpt and site.read_more != 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
