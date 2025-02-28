@@ -3,7 +3,7 @@ title: "MVU-AE: Minimum Variance Unbiased Autoencoder"
 collection: publications
 category: conferences
 # permalink: /publications/MVU-AE
-excerpt: 'This paper is about fixing template issue #693.'
+# excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-01-31
 venue: 'Submitted to ICML 2025'
 paperurl: '/files/MVU-AE.pdf'
