@@ -7,7 +7,7 @@ category: conferences
 date: 2025-01-31
 venue: 'Submitted to ICML 2025'
 paperurl: '/files/MVU-AE.pdf'
-authors: '*Yaqin Chen*, Junrong Lian, Qing Zhao, Xiangyang Ji, Liang Lin, Pengxu Wei'
+authors: '**Yaqin Chen**, Junrong Lian, Qing Zhao, Xiangyang Ji, Liang Lin, Pengxu Wei'
 # citation: '*Yaqin Chen*, Junrong Lian, Qing Zhao, Xiangyang Ji, Liang Lin, Pengxu Wei. (2025). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
