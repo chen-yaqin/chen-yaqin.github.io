@@ -16,9 +16,9 @@ I am actively seeking research opportunities for Summer and Fall 2025 and lookin
 
 Recent News
 ======
-Jan. 2025. One paper is submitted to **ICML 2025**.
+- *Jan. 2025.* One paper [MVU-AE: Minimum Variance Unsupervised Autoencoder](/files/MVU-AE.pdf)is submitted to **ICML 2025**.
 
-Oct. 2024. Awarded National Scholarship of China.
+- *Oct. 2024.* Awarded National Scholarship of China.
 
 <!-- Getting started
 ======

@@ -36,7 +36,7 @@
     {% else %}
       {% if post.collection == 'publications' %}
         <p><strong>[{{ post.venue }}]</strong> <a href="{{ post.paperurl }}">{{ post.title }}</a></p>
-        <p>{{ post.authors }}</p>
+        <p>{{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}</p>
       {% endif %}
     {% endif %}
 
