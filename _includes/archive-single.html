@@ -55,11 +55,7 @@
         {{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}
       </p>
     {% endif %}
-    
-      <!-- {% if post.collection == 'publications' %}
-        <p><strong>[{{ post.venue }}]</strong> <a href="{{ post.paperurl }}">{{ post.title }}</a></p>
-        <p>{{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}</p>
-      {% endif %} -->
+
     {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
