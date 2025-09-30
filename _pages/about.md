@@ -27,10 +27,10 @@ I am actively seeking Ph.D. opportunities for Fall 2026. Please feel free to con
 
 Recent News
 ======
-- *Sep. 2025.* One paper [Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf) is submitted to **ICLR 2026**.
+- *Sep. 2025.* Our paper, [Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf) is now under review at **ICLR 2026**.
 
-- *Aug. 2025.* Successfuully completed the iSURE Program at University of Notre Dame.
+- *Aug. 2025.* Successfully completed the iSURE Program at the University of Notre Dame.
 
-- *Jan. 2025.* One paper [MVU-AE: Minimum Variance Unsupervised Autoencoder](/files/MVU-AE.pdf) is submitted to **ICML 2025**.
+- *Jan. 2025.* Developed a new theoretical framework,  [MVU-AE: Minimum Variance Unsupervised Autoencoder](/files/MVU-AE.pdf).
 
 - *Oct. 2024.* Awarded National Scholarship of China.
