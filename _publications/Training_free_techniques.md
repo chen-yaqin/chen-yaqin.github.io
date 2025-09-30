@@ -1,7 +1,7 @@
 ---
 title: "Training-Free Guided Generation techniques for Conditional Flow Matching on Scientific Datasets"
 collection: publications
-category: jounals
+category: journals
 date: 2025-10-31
 venue: 'Submitted to xxxx xxxx'
 paperurl: '/files/paper1.pdf'

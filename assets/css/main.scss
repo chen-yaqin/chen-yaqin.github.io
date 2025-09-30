@@ -42,5 +42,18 @@
 
 /* Adjust list item spacing in main content */
 .page__content ul li {
-  margin-bottom: 0.5rem; /* 减小列表项的下外边距 */
+  margin-bottom: 0.01rem !important; /* 减小列表项的下外边距 */
+}
+.list__item {
+  margin-bottom: 2em;
+}
+
+/* Publications list styling */
+.list__item article p {
+  margin-bottom: 0.5em; /* 调整段落间距 */
+  line-height: 1.4;   /* 调整行高 */
+}
+
+.list__item article p:last-child {
+  margin-bottom: 0; /* 最后一个段落不需要下边距 */
 }

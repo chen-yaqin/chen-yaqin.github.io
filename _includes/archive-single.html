@@ -47,11 +47,11 @@
       {% endif %}
 
       {% if post.collection == 'publications' %}
-      <p style="margin-bottom: 0px; line-height: 0.6;">
-        <strong>[{{ post.venue }}]</strong> 
+      <p style="margin-bottom: 0px; line-height: 1;">
+        <strong>{% if post.venue and post.venue != "" %}[ {{ post.venue }} ]{% endif %}</strong> 
         <a href="{{ post.paperurl }}">{{ post.title }}</a>
       </p>
-      <p style="margin-bottom: 0px; line-height: 0.4; font-family: 'Times New Roman', Times, serif;">
+      <p style="margin-bottom: 0px; line-height: 0.6; font-family: 'Times New Roman', Times, serif;">
         {{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}
       </p>
     {% endif %}
