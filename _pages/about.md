@@ -13,10 +13,9 @@ Research: My research aims to advance machine learning by developing principled,
 
 Currently, I am working on:
 
-- Principled and efficient generative models
--  AI for Science & scientific simulation
--  In-context learning and evaluation of LLM agents
--  Sequential decision-making under uncertainty
+* Developing principled and efficient generative models, grounded in statistical theory, for both foundational understanding and application.
+* Applying these models within AI for Science for complex scientific simulation tasks.
+* Understanding and evaluating LLM agents through the lens of in-context learning and sequential decision-making under uncertainty.
 
 At SYSU, I am fortunate to be advised by [Prof. Pengxu Wei](https://pengxuwei.github.io/) and [Prof. Liang Lin](https://www.sysu-hcp.net/faculty/lianglin.html).
 
