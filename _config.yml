@@ -148,10 +148,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    measurement_id       : "G-F1Z21KEWLR"
-    anonymize_ip         : true
+    tracking_id       : "G-F1Z21KEWLR"
 
 
 # Reading Files
