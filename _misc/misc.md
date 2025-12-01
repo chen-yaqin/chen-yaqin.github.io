@@ -5,11 +5,9 @@ permalink: /misc/
 author_profile: true
 ---
 
-This page collects some lighter, more personal things that do not quite fit on the main research pages.
-
 ## Outside of research
 
-When I am not thinking about stochastic processes or generative models, I enjoy:
+When I am not thinking about the research stuff, I enjoy:
 
 * **Chinese Chess (Xiangqi)**: I grew up competing in tournaments and still love the mix of strategy and creativity.
 * **Reading**: I enjoy novels, essays, and biographies, also occasionally read books on science and the history of mathematics.
