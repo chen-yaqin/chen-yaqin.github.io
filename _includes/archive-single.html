@@ -47,17 +47,23 @@
       {% endif %}
 
     {% if post.collection == 'publications' %}
-      <p style="margin-bottom: 4px; line-height: 1;">
-        {% if post.venue and post.venue != "" %}<span style="color: #666;">[{{ post.venue }}]</span>{% endif %}
+      <p style="margin-bottom: 0px; line-height: 1.5;">
+        {% if post.venue and post.venue != "" %}
+          <span style="color: #777; font-style: italic; font-size: 0.85em; margin-right: 2px;">
+            [{{ post.venue }}]
+          </span>
+        {% endif %}
         
-        {{ post.title }}
+      <span style="font-size: 1.1em; color: #222;">
+            {{ post.title }}
+          </span>
         
         {% if post.arxivurl %}
-          <a href="{{ post.arxivurl }}" style="margin-left: 5px;">[arxiv]</a>
+          <a href="{{ post.arxivurl }}" style="margin-left: 5px;font-size: 0.9em;">[arxiv]</a>
         {% endif %}
 
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" style="margin-left: 2px;">[pdf]</a>
+          <a href="{{ post.paperurl }}" style="margin-left: 2px;font-size: 0.9em;">[pdf]</a>
         {% endif %}
       </p>
       
