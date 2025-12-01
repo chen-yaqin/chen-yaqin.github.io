@@ -24,6 +24,6 @@ A few snapshots from places that have been especially meaningful to me recently:
 * **Lake Mendota, Madison**: A quiet place to think through research ideas and unwind after work.
 * **St. Joseph's Lake, University of Notre Dame**: Where I spent a summer working on scientific machine learning, often ending the day with a walk by the water.
 
-![Lake Mendota, Madison](/image/lake-mendota.jpg)
+![Lake Mendota, Madison](/images/lake-mendota.jpg)
 
 ![St. Joseph's Lake, Notre Dame](/images/st-joseph-lake-sunset.jpg)
