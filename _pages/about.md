@@ -28,9 +28,9 @@ I am actively seeking Ph.D. opportunities for Fall 2026. Please feel free to con
 
 Recent News
 ======
-- *Nov. 2025.* *Nov. 2025.* Released the preprint and project page for **BELA**. Check out the [arXiv](https://arxiv.org/abs/2511.22130) and the [Leaderboard](https://www.experiential-learning-benchmark.com/)!
+- *Nov. 2025.* Released the preprint and project page for **BELA**. Check out the [arXiv](https://arxiv.org/abs/2511.22130) and the [Leaderboard](https://www.experiential-learning-benchmark.com/)!
 
-- *Sep. 2025.* *Sep. 2025.* Our paper introducing **BELA** ([Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf)) is under review at **ICLR 2026**.
+- *Sep. 2025.* Our paper introducing **BELA** ([Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf)) is under review at **ICLR 2026**.
 
 - *Aug. 2025.* Successfully completed the iSURE Program at the University of Notre Dame.
 
