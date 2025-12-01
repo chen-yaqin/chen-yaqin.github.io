@@ -46,11 +46,21 @@
         </p>
       {% endif %}
 
-      {% if post.collection == 'publications' %}
-      <p style="margin-bottom: 0px; line-height: 1;">
-        <strong>{% if post.venue and post.venue != "" %}[ {{ post.venue }} ]{% endif %}</strong> 
-        <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% if post.collection == 'publications' %}
+      <p style="margin-bottom: 4px; line-height: 1;">
+        {% if post.venue and post.venue != "" %}<span style="color: #666;">[{{ post.venue }}]</span>{% endif %}
+        
+        {{ post.title }}
+        
+        {% if post.arxivurl %}
+          <a href="{{ post.arxivurl }}" style="margin-left: 5px;">[arxiv]</a>
+        {% endif %}
+
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" style="margin-left: 2px;">[pdf]</a>
+        {% endif %}
       </p>
+      
       <p style="margin-bottom: 0px; line-height: 0.6; font-family: 'Times New Roman', Times, serif;">
         {{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}
       </p>
