@@ -19,7 +19,7 @@ Currently, I am working on:
 
 At SYSU, I am fortunate to be advised by [Prof. Pengxu Wei](https://pengxuwei.github.io/) and [Prof. Liang Lin](https://www.sysu-hcp.net/faculty/lianglin.html).
 
-At UW–Madison, I am mentored by [Prof. Yiqiao Zhong](https://pages.stat.wisc.edu/~zhong35/).
+At UW–Madison, I am fortunate to be mentored by [Prof. Yiqiao Zhong](https://pages.stat.wisc.edu/~zhong35/).
 
 I am also grateful to have the opportunity to work with wonderful advisors and mentors, including [Prof. Hongseok Namkoong](https://hsnamkoong.github.io/) (Columbia Business School) and [Prof. Jianxun Wang](https://www.engineering.cornell.edu/people/jian-xun-wang/) (Cornell University). 
 
@@ -28,7 +28,9 @@ I am actively seeking Ph.D. opportunities for Fall 2026. Please feel free to con
 
 Recent News
 ======
-- *Sep. 2025.* Our paper, [Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf) is now under review at **ICLR 2026**.
+- *Nov. 2025.* *Nov. 2025.* Released the preprint and project page for **BELA**. Check out the [arXiv](https://arxiv.org/abs/2511.22130) and the [Leaderboard](https://www.experiential-learning-benchmark.com/)!
+
+- *Sep. 2025.* *Sep. 2025.* Our paper introducing **BELA** ([Benchmarking In-context Experiential Learning Through Repeated Product Recommendations](/files/BIEL.pdf)) is under review at **ICLR 2026**.
 
 - *Aug. 2025.* Successfully completed the iSURE Program at the University of Notre Dame.
 
