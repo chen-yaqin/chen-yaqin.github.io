@@ -18,6 +18,7 @@ Currently, I am working on:
 * Understanding and evaluating LLM agents through the lens of in-context learning and sequential decision-making under uncertainty.
 
 At SYSU, I am fortunate to be advised by [Prof. Pengxu Wei](https://pengxuwei.github.io/) and [Prof. Liang Lin](https://www.sysu-hcp.net/faculty/lianglin.html).
+At UW–Madison, I am mentored by [Prof. Yiqiao Zhong](https://pages.stat.wisc.edu/~zhong35/).
 
 I am also grateful to have the opportunity to work with wonderful advisors and mentors, including [Prof. Hongseok Namkoong](https://hsnamkoong.github.io/) (Columbia Business School) and [Prof. Jianxun Wang](https://www.engineering.cornell.edu/people/jian-xun-wang/) (Cornell University). 
 
