@@ -34,17 +34,37 @@
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }} </p>
     {% else %}
-      {% if post.collection == 'projects' %}
-        <p style="margin-bottom: 4px; line-height: 1.0;"> 
-          <a href="{{ post.paperurl }}">{{ post.title }}</a>
-        </p>
-        <p style="font-family: Arial, sans-serif; font-size: 12px; color: #858383; margin-bottom: 0px; line-height: 0.1;">
-          {{ post.venue }}
-        </p>
-        <p style="margin-bottom: 0px; line-height: 0.1; font-family: 'Times New Roman', Times, serif;">
+    {% if post.collection == 'projects' %}
+      <div style="margin-bottom: 15px;">
+        
+        <div style="line-height: 1.4; margin-bottom: 4px;">
+          <span style="font-size: 16px; font-weight: bold; color: #000;">
+            {{ post.title }}
+          </span>
+
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" style="font-size: 14px; margin-left: 6px; color: #2a7ae2; text-decoration: none;">
+              {% if post.paperurl contains 'github.com' %}
+                [Code]
+              {% elsif post.paperurl contains 'arxiv' %}
+                [arXiv]
+              {% else %}
+                [Website]
+              {% endif %}
+            </a>
+          {% endif %}
+        </div>
+
+        <div style="font-family: 'Times New Roman', Times, serif; font-size: 14px; line-height: 1.4; color: #333; margin-bottom: 2px;">
           {{ post.authors | replace: 'Yaqin Chen', '<strong>Yaqin Chen</strong>' }}
-        </p>
-      {% endif %}
+        </div>
+
+        <div style="font-family: Arial, sans-serif; font-size: 12px; color: #858383; line-height: 1.4; font-style: italic;">
+          {{ post.venue }}
+        </div>
+
+      </div>
+    {% endif %}
 
     {% if post.collection == 'publications' %}
       <p style="margin-bottom: 0px; line-height: 1.5;">
@@ -54,7 +74,7 @@
           </span>
         {% endif %}
         
-      <span style="font-size: 1.1em; color: #222;">
+      <span style="font-size: 1.2em; color: #222;">
             {{ post.title }}
           </span>
         
