@@ -53,6 +53,12 @@
               {% endif %}
             </a>
           {% endif %}
+
+          {% if post.videourl %}
+            <a href="{{ post.videourl }}" style="font-size: 14px; margin-left: 6px; color: #2a7ae2; text-decoration: none;">
+              [Video]
+            </a>
+          {% endif %}
         </div>
 
         <div style="font-family: 'Times New Roman', Times, serif; font-size: 14px; line-height: 1.4; color: #333; margin-bottom: 2px;">
