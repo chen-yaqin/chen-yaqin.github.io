@@ -1,13 +1,7 @@
-# chen-yaqin-homepage
+# Yaqin Chen's Personal Homepage
 
-This folder is a static, no-Jekyll version of the site in `chen-yaqin.github.io`.
+This repository contains the source for Yaqin Chen's personal homepage.
 
-What is included:
-- The built site content copied from `chen-yaqin.github.io/_site`
-- Static assets such as `assets/`, `images/`, `files/`, and page folders
-- Cleanup of local preview URLs like `http://localhost:4000`
-- Removal of Jekyll-specific footer text and broken icon references
+The website presents academic and professional information, including research, publications, projects, teaching, talks, and other personal materials.
 
-How to use it:
-- Open it with any static file server
-- Or deploy it directly as plain HTML/CSS/JS without Jekyll
+It is a static website that can be hosted directly with standard HTML, CSS, and related assets.
