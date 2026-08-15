@@ -31,6 +31,13 @@
 
   <link rel="canonical" href="/sitemap/">
   <meta property="og:url" content="/sitemap/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://chen-yaqin.github.io/images/og.png">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Yaqin Chen — Learning systems for science and decisions">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://chen-yaqin.github.io/images/og.png">
 
 
 
@@ -109,6 +116,8 @@
 
   <body class="sitemap-page">
 
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
@@ -116,10 +125,13 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <img src="/images/Northwestern_Wildcats_logo.svg" class="masthead__brand-mark" alt="Northwestern Wildcats logo">
+    <a class="masthead__identity" href="/" aria-label="Yaqin Chen, home">
+      <span class="masthead__identity-name">Yaqin Chen</span>
+      <span class="masthead__identity-detail">陈亚勤 / Research</span>
+    </a>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="Open navigation" aria-expanded="false"><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
           
@@ -171,7 +183,7 @@
     <p class="author__bio">Northwestern IEMS PhD incoming (Fall 2026)</p>
 
     <a class="author__cv-link" href="/files/CV.pdf" target="_blank" rel="noopener">
-      <span class="author__cv-link__label">Download CV</span>
+      <span class="author__cv-link__label">Curriculum vitae</span>
       <span class="author__cv-link__meta">PDF</span>
     </a>
   </div>
@@ -337,6 +349,7 @@
     </div>
 
     <script src="/assets/js/main.min.js"></script>
+    <script src="/assets/js/editorial.js"></script>
 
 
 

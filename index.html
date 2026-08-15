@@ -19,7 +19,7 @@
 
 
 
-<title>About Me - Yaqin Chen (陈亚勤)</title>
+<title>Yaqin Chen — Machine Learning Research</title>
 
 
 
@@ -29,11 +29,18 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yaqin Chen (陈亚勤)">
-<meta property="og:title" content="About Me">
+<meta property="og:title" content="Yaqin Chen — Machine Learning Research">
 
 
   <link rel="canonical" href="/">
   <meta property="og:url" content="/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://chen-yaqin.github.io/images/og.png">
+  <meta property="og:image:width" content="1536">
+  <meta property="og:image:height" content="1024">
+  <meta property="og:image:alt" content="Yaqin Chen — Learning systems for science and decisions">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://chen-yaqin.github.io/images/og.png">
 
 
 
@@ -112,6 +119,8 @@
 
   <body class="home-page">
 
+    <a class="skip-link" href="#main">Skip to content</a>
+
     <!--[if lt IE 9]>
 <div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
@@ -119,12 +128,15 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <img src="/images/Northwestern_Wildcats_logo.svg" class="masthead__brand-mark" alt="Northwestern Wildcats logo">
+    <a class="masthead__identity" href="/" aria-label="Yaqin Chen, home">
+      <span class="masthead__identity-name">Yaqin Chen</span>
+      <span class="masthead__identity-detail">陈亚勤 / Research</span>
+    </a>
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+        <button type="button" aria-label="Open navigation" aria-expanded="false"><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="/" aria-current="page">Home</a></li>
           
             
             <li class="masthead__menu-item"><a href="/experiences/">Experiences</a></li>
@@ -176,7 +188,7 @@
     <p class="author__bio">Northwestern IEMS PhD incoming (Fall 2026)</p>
 
     <a class="author__cv-link" href="/files/CV.pdf" target="_blank" rel="noopener">
-      <span class="author__cv-link__label">Download CV</span>
+      <span class="author__cv-link__label">Curriculum vitae</span>
       <span class="author__cv-link__meta">PDF</span>
     </a>
   </div>
@@ -211,7 +223,7 @@
             
             
       
-        <li><a href="https://scholar.google.com/citations?user=fy4Z6kwAAAAJ&hl=en"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
+        <li><a href="https://scholar.google.com/citations?user=fy4Z6kwAAAAJ&amp;hl=en"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
       
             
             
@@ -257,7 +269,7 @@
 
 
   <article class="page home-page-card" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="About Me">
+    <meta itemprop="headline" content="Learning systems for science and decisions">
     
     
     
@@ -265,8 +277,9 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">About Me
-</h1>
+          <p class="homepage-eyebrow">Generative modeling · AI for science · Learning agents</p>
+          <h1 class="page__title" itemprop="headline">Learning systems for<br><em>science and decisions.</em></h1>
+          <p class="homepage-deck">I study principled, efficient, and reliable machine learning for scientific discovery and intelligent decision-making.</p>
           
         
         
@@ -275,15 +288,14 @@
       
 
       <section class="page__content home-page__content" itemprop="text">
-        <div class="homepage-intro">
-  <p class="homepage-eyebrow">Yaqin Chen · 陈亚勤</p>
+<div class="homepage-intro">
   <p class="homepage-lead">
     I am a senior undergraduate at <strong>Sun Yat-sen University</strong>, majoring in
     <strong>Information and Computing Science</strong>, and I am currently a visiting student in the
     <strong>Department of Statistics</strong> at the <strong>University of Wisconsin-Madison</strong>.
   </p>
   <div class="homepage-highlight">
-    <span>🎓</span>
+    <span class="homepage-highlight__label">Next chapter</span>
     <p>I will join the <strong>PhD program in Industrial Engineering and Management Sciences (IEMS)</strong> at <strong>Northwestern University</strong> in <strong>Fall 2026</strong>.</p>
   </div>
 </div>
@@ -294,20 +306,20 @@
     My research aims to advance machine learning through <strong>principled, efficient, and reliable methods</strong>
     for scientific discovery and intelligent decision-making.
   </p>
-  <div class="focus-grid">
-    <div class="focus-card">
+  <ol class="research-lines">
+    <li class="research-line">
       <h3>Generative Modeling</h3>
       <p>Developing statistically grounded generative models for both theoretical understanding and practical use.</p>
-    </div>
-    <div class="focus-card">
+    </li>
+    <li class="research-line">
       <h3>AI for Science</h3>
       <p>Applying machine learning to challenging scientific simulation and modeling problems.</p>
-    </div>
-    <div class="focus-card">
+    </li>
+    <li class="research-line">
       <h3>LLM Agents</h3>
       <p>Studying in-context learning and sequential decision-making under uncertainty to better understand agent behavior.</p>
-    </div>
-  </div>
+    </li>
+  </ol>
 </div>
 
 <div class="homepage-section">
@@ -334,21 +346,18 @@
     <li>
       <span class="news-date">Feb 2026</span>
       <div>
-        <span class="news-emoji" aria-hidden="true">🎉</span>
         1 paper was accepted to CVPR 2026.
       </div>
     </li>
     <li>
       <span class="news-date">Feb 2026</span>
       <div>
-        <span class="news-emoji" aria-hidden="true">📝</span>
         Our paper <a href="https://arxiv.org/abs/2602.21469">Training-Free Guided Generation techniques for Conditional Flow Matching on Scientific Datasets</a> is now available on arXiv.
       </div>
     </li>
     <li>
       <span class="news-date">Nov 2025</span>
       <div>
-        <span class="news-emoji" aria-hidden="true">🚀</span>
         Released the preprint and project page for <strong>BELA</strong>. See the
         <a href="https://arxiv.org/abs/2511.22130">arXiv</a> and
         <a href="https://www.experiential-learning-benchmark.com/">Leaderboard</a>.
@@ -357,7 +366,6 @@
     <li>
       <span class="news-date">Sep 2025</span>
       <div>
-        <span class="news-emoji" aria-hidden="true">🏫</span>
         Started visiting in the UW-Madison Statistics Department.</div>
     </li>
   </ul>
@@ -427,6 +435,7 @@
     </div>
 
     <script src="/assets/js/main.min.js"></script>
+    <script src="/assets/js/editorial.js"></script>
 
 
 
