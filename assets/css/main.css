@@ -2250,7 +2250,6 @@ body:not(.home-page) .masthead__menu,
 .experiences-page .visible-links a[href="/experiences/"]::after,
 .publications-page .visible-links a[href="/publications/"]::after,
 .projects-page .visible-links a[href="/projects/"]::after,
-.notes-page .visible-links a[href="/notes/"]::after,
 .misc-page .visible-links a[href="/misc/"]::after{
   opacity:1;
   transform:scaleX(1);
@@ -2261,7 +2260,6 @@ body:not(.home-page) .masthead__menu,
 .experiences-page .visible-links a[href="/experiences/"],
 .publications-page .visible-links a[href="/publications/"],
 .projects-page .visible-links a[href="/projects/"],
-.notes-page .visible-links a[href="/notes/"],
 .misc-page .visible-links a[href="/misc/"]{
   color:var(--editorial-purple);
 }

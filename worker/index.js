@@ -34,6 +34,13 @@ export default {
       });
     }
 
+    var url = new URL(request.url);
+    if (url.pathname === "/notes" || url.pathname === "/notes/") {
+      return withSecurityHeaders(
+        Response.redirect("https://github.com/chen-yaqin/learning-notes", 302),
+      );
+    }
+
     var response = await fetchStaticAsset(request, env);
     return withSecurityHeaders(response);
   },
