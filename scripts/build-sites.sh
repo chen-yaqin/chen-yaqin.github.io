@@ -13,7 +13,7 @@ for file in index.html 404.html feed.xml robots.txt sitemap.xml; do
   cp "$project_dir/$file" "$client_dir/$file"
 done
 
-for directory in assets images files experiences publications projects misc sitemap; do
+for directory in assets images files experiences publications projects notes misc sitemap; do
   cp -R "$project_dir/$directory" "$client_dir/$directory"
 done
 
