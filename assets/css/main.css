@@ -2799,56 +2799,6 @@ body:not(.home-page) .archive{
   text-decoration-color:var(--editorial-ink);
 }
 
-.home-page .research-lines{
-  counter-reset:research-line;
-  margin:1.5rem 0 0;
-  padding:0;
-  border-bottom:1px solid var(--editorial-rule);
-  list-style:none;
-}
-
-.home-page .research-line{
-  counter-increment:research-line;
-  display:grid;
-  grid-template-columns:3.5rem minmax(0, 1fr);
-  column-gap:1.25rem;
-  margin:0;
-  padding:1.45rem 0 1.55rem;
-  border-top:1px solid var(--editorial-rule);
-  background:transparent;
-}
-
-.home-page .research-line::before{
-  content:"0" counter(research-line);
-  grid-column:1;
-  grid-row:1 / span 2;
-  color:var(--editorial-purple-soft);
-  font-family:var(--editorial-serif);
-  font-size:1.6rem;
-  font-style:italic;
-  line-height:1;
-}
-
-.home-page .research-line h3{
-  grid-column:2;
-  margin:0 0 0.35rem;
-  color:var(--editorial-ink);
-  font-family:var(--editorial-serif);
-  font-size:clamp(1.08rem, 1.5vw, 1.35rem);
-  font-weight:500;
-  line-height:1.18;
-  letter-spacing:-0.025em;
-}
-
-.home-page .research-line p{
-  grid-column:2;
-  margin:0;
-  color:var(--editorial-muted);
-  font-family:var(--editorial-serif);
-  font-size:0.98rem;
-  line-height:1.62;
-}
-
 .home-page .news-list{
   margin:0;
   padding:0;
@@ -3821,15 +3771,6 @@ body:not(.home-page) .page__title em{
     margin-bottom:1.8rem;
   }
 
-  .home-page .research-line{
-    grid-template-columns:2.7rem minmax(0, 1fr);
-    column-gap:0.85rem;
-  }
-
-  .home-page .research-line::before{
-    font-size:1.35rem;
-  }
-
   .home-page .news-list li{
     grid-template-columns:1fr;
     gap:0.45rem;
@@ -3968,6 +3909,12 @@ body:not(.home-page) .page__title em{
   --editorial-sans:var(--editorial-ui);
   --editorial-max:1280px;
   --editorial-gutter:clamp(1.25rem, 4vw, 3.5rem);
+  /* Homepage type and rhythm controls. */
+  --home-title-font:"Newsreader",Georgia,serif;
+  --home-title-size:clamp(1.6rem, 2.8vw, 2.4rem);
+  --home-title-size-small:clamp(0.75rem, 3.5vw, 1.4rem);
+  --home-section-heading-size:1.3rem;
+  --home-paragraph-gap:1.1rem;
 }
 
 html,
@@ -4303,8 +4250,8 @@ body:not(.home-page) #main > .sidebar .author__urls > li > a{
   width:max-content;
   max-width:none;
   color:var(--editorial-ink);
-  font-family:var(--editorial-display);
-  font-size:clamp(1.6rem, 2.8vw, 2.4rem);
+  font-family:var(--home-title-font);
+  font-size:var(--home-title-size);
   font-weight:600;
   line-height:1.06;
   letter-spacing:-0.035em;
@@ -4414,7 +4361,7 @@ body:not(.home-page) #main > .sidebar .author__urls > li > a{
   margin:0 0 1.4rem;
   color:var(--editorial-ink);
   font-family:var(--editorial-display);
-  font-size:1.3rem;
+  font-size:var(--home-section-heading-size);
   font-weight:600;
   line-height:1.3;
   letter-spacing:-0.02em;
@@ -4426,42 +4373,17 @@ body:not(.home-page) #main > .sidebar .author__urls > li > a{
 }
 
 .home-page .homepage-section > p{
+  margin:0;
   color:var(--editorial-ink);
   font-family:var(--editorial-text);
   font-size:1rem;
   line-height:1.7;
 }
 
-.home-page .research-lines{
-  margin-top:1.25rem;
+.home-page .homepage-section > p + p{
+  margin-top:var(--home-paragraph-gap);
 }
 
-.home-page .research-line{
-  display:grid;
-  grid-template-columns:minmax(9rem, 0.35fr) minmax(0, 1fr);
-  gap:1.5rem;
-  padding:1.15rem 0;
-}
-
-.home-page .research-line::before{
-  display:none;
-}
-
-.home-page .research-line h3,
-.home-page .research-line p{
-  grid-column:auto;
-}
-
-.home-page .research-line h3{
-  margin:0;
-  color:var(--editorial-purple);
-  font-family:var(--editorial-display);
-  font-size:0.98rem;
-  font-weight:600;
-  line-height:1.45;
-}
-
-.home-page .research-line p,
 .home-page .news-list li > div{
   color:var(--editorial-muted);
   font-family:var(--editorial-text);
@@ -5079,19 +5001,11 @@ body:not(.home-page) .page__title em{
   }
 
   .home-page .page__title{
-    font-size:clamp(0.75rem, 3.5vw, 1.4rem);
+    font-size:var(--home-title-size-small);
   }
 
   .home-page .homepage-directory a:nth-child(n){
     border:0;
-  }
-
-  .home-page .research-line{
-    display:block;
-  }
-
-  .home-page .research-line h3{
-    margin-bottom:0.4rem;
   }
 
   .home-page .news-list::before,
