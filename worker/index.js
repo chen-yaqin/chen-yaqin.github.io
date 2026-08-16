@@ -37,7 +37,7 @@ export default {
     var url = new URL(request.url);
     if (url.pathname === "/notes" || url.pathname === "/notes/") {
       return withSecurityHeaders(
-        Response.redirect("https://github.com/chen-yaqin/learning-notes", 302),
+        Response.redirect("https://chen-yaqin.github.io/learning-notes/", 302),
       );
     }
 
