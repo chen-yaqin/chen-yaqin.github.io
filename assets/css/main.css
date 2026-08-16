@@ -1,5 +1,5 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Manrope:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..700;1,8..60,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap");
 
 /* Global purple theme refresh */
 :root{
@@ -15,8 +15,8 @@
   --accent-strong:#5d3c9b;
   --accent-tint:rgba(120,82,186,0.10);
   --accent-line:rgba(120,82,186,0.18);
-  --font-serif:"Georgia","Source Serif 4","Noto Serif SC","Source Han Serif SC","STSong","Songti SC","Times New Roman",serif;
-  --font-ui:"Manrope","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Segoe UI",sans-serif;
+  --font-serif:"Newsreader",Georgia,serif;
+  --font-ui:"Inter",Arial,sans-serif;
   --layout-max:1180px;
   --layout-sidebar-min:260px;
   --layout-sidebar-max:320px;
@@ -440,7 +440,7 @@ body{
 
 .sidebar .author__name{
   color:#2f2146;
-  font-family:"Source Serif 4","Noto Serif SC","Source Han Serif SC","STSong","Songti SC",serif;
+  font-family:"Newsreader",Georgia,serif;
   font-size:var(--sidebar-name-size);
   font-weight:700;
   line-height:0.96;
@@ -645,7 +645,7 @@ body{
 
 .archive .list__item span[style*="font-size: 16px"]{
   color:#2f2146 !important;
-  font-family:"Manrope",sans-serif !important;
+  font-family:"Inter",Arial,sans-serif !important;
   font-size:1.04rem !important;
   font-weight:700 !important;
   letter-spacing:-0.01em;
@@ -786,7 +786,7 @@ body{
   display:block;
   margin-bottom:0.1rem;
   color:#847995;
-  font-family:"Manrope",sans-serif;
+  font-family:"Inter",Arial,sans-serif;
   font-size:0.82rem;
   font-weight:700;
   letter-spacing:0.02em;
@@ -994,7 +994,7 @@ body{
 
 .archive .list__item div[style*="Times New Roman"]{
   color:#5a4d70 !important;
-  font-family:var(--font-serif) !important;
+  font-family:var(--font-ui) !important;
   font-size:0.97rem !important;
   line-height:1.55 !important;
 }
@@ -1327,7 +1327,7 @@ body{
 
 .home-page .focus-card p{
   margin:0;
-  font-family:"Source Serif 4","Noto Serif SC","Source Han Serif SC","STSong","Songti SC",serif;
+  font-family:"Newsreader",Georgia,serif;
   font-size:1rem;
   line-height:1.65;
 }
@@ -1483,7 +1483,7 @@ body:not(.home-page) .page__inner-wrap > header .page__title{
 .publications-page .archive .list__item span[style*="font-size: 16px"],
 .publications-page .archive .list__item div[style*="Times New Roman"],
 .publications-page .archive .list__item div[style*="font-style: italic"]{
-  font-family:"Source Serif 4","Noto Serif SC","Source Han Serif SC","STSong","Songti SC",serif !important;
+  font-family:"Newsreader",Georgia,serif !important;
 }
 
 .projects-page .archive .list__item span[style*="font-size: 16px"],
@@ -2017,8 +2017,8 @@ body:not(.home-page) .page__inner-wrap > header .page__title{
   --editorial-purple-soft:#72549a;
   --editorial-rule:#cfc4ca;
   --editorial-rule-dark:#93848e;
-  --editorial-serif:"Source Serif 4",Georgia,"Noto Serif SC","Songti SC","Times New Roman",serif;
-  --editorial-sans:"Manrope","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --editorial-serif:"Newsreader",Georgia,serif;
+  --editorial-sans:"Inter",Arial,sans-serif;
   --editorial-max:1440px;
   --editorial-gutter:clamp(1.25rem, 4vw, 4.5rem);
 }
@@ -3961,10 +3961,10 @@ body:not(.home-page) .page__title em{
   --editorial-purple-soft:#7656a8;
   --editorial-rule:#d9d3e2;
   --editorial-rule-dark:#c6bfce;
-  --editorial-display:"Fraunces","Noto Serif CJK SC","Source Han Serif SC","Songti SC","STSong",Georgia,serif;
-  --editorial-text:"Source Serif 4","Noto Serif CJK SC","Source Han Serif SC","Songti SC","STSong",Georgia,serif;
-  --editorial-ui:"Manrope","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",system-ui,sans-serif;
-  --editorial-serif:var(--editorial-text);
+  --editorial-display:"Newsreader",Georgia,serif;
+  --editorial-text:"Inter",Arial,sans-serif;
+  --editorial-ui:"Inter",Arial,sans-serif;
+  --editorial-serif:var(--editorial-display);
   --editorial-sans:var(--editorial-ui);
   --editorial-max:1280px;
   --editorial-gutter:clamp(1.25rem, 4vw, 3.5rem);
